@@ -759,7 +759,7 @@ class AppBiomecanica:
 if __name__ == "__main__":
     #Inicializa
     # Punto de entrada del script: crea la ventana raíz de Tkinter, instancia la aplicación
-    # y arranca el bucle principal de eventos (mainloop), que mantiene la interfaz gráfica
+    # y arranca el bucle principal de eventos (mainloop), que mantiene la interfaz gráfica 
     # activa y receptiva a los eventos del usuario (clics, teclas...) hasta que se cierra la ventana.
     app_raiz = tk.Tk()
     mi_app = AppBiomecanica(app_raiz)
