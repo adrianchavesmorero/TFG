@@ -703,7 +703,7 @@ class AppBiomecanica:
                                 elif not pech_ok:
                                     res_final = "Pecho colapsado"
                                 
-                                # Añade la fila-resumen de la repetición a la lista que después se exporta a Excel
+                                # Añade la fila de la repetición a la lista que después se exporta a Excel
                                 self.reps_guardadas.append({
                                     "Repetición": len(self.reps_guardadas) + 1,
                                     "Resultado": res_final,
